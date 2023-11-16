@@ -1,0 +1,33 @@
+# Dependencies
+/react-frontend/node_modules
+
+# Build output
+/react-frontend/build
+/react-frontend/dist
+
+# Environment files
+/react-frontend/.env
+/react-frontend/.env.local
+/react-frontend/.env.development.local
+/react-frontend/.env.test.local
+/react-frontend/.env.production.local
+
+# Debug logs
+/react-frontend/npm-debug.log*
+/react-frontend/yarn-debug.log*
+/react-frontend/yarn-error.log*
+
+# IDE and editor folders
+/react-frontend/.idea
+/react-frontend/.vscode
+/react-frontend/*.swp
+/react-frontend/*.swo
+
+# Operating System Files
+/react-frontend/.DS_Store
+/react-frontend/Thumbs.db
+
+# Optional: Exclude specific files or patterns as needed
+# /src/some-directory-to-ignore/
+# /public/some-file-to-ignore.html
+
