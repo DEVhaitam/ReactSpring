@@ -6,4 +6,11 @@ const getEmployees = () => {
     return axios.get(EMPLOYEE_API_BASE_URL);
 };
 
-export default getEmployees;
+const getEmployeeById = (id) => {
+    return axios.get(EMPLOYEE_API_BASE_URL+`/${id}`);
+};
+
+export default {
+    getEmployees,
+    getEmployeeById
+};

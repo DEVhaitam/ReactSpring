@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
-import getEmployees from "../services/EmployeeService";
+import EmployeeService from "../services/EmployeeService";
 
 const useAxios = () => {
     const [employees, setEmployees] = useState(null);
     
     useEffect(() =>{
-        getEmployees().then(res => setEmployees(res.data));
+        EmployeeService.getEmployees().then(res => setEmployees(res.data));
     },[]);
     
 
